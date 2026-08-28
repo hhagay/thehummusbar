@@ -180,10 +180,10 @@ export const MENU: MenuSection[] = [
         id: "arayes",
         name: "Beef Arayes Platter",
         description:
-          "Grilled kebab meatballs served with rice, chopped Israeli salad, and fries.",
+          "Crispy pita stuffed with seasoned ground beef, grilled on skewers, served with rice, chopped Israeli salad, and fries.",
         price: 24.95,
         dietary: "meat",
-        image: "/food/arayes-meatballs.jpg",
+        image: "/food/arayes.jpg",
       },
       {
         id: "shakshuka",
