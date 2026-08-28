@@ -124,7 +124,7 @@ function CartPage() {
           </ul>
           <p className="mt-4 text-right text-lg font-semibold text-cream">{formatPrice(placed.total)}</p>
           <div className="cta-row mt-8">
-            <Link to="/menu" className={cn(buttonVariants({ size: "lg" }))}>
+            <Link to="/order" className={cn(buttonVariants({ size: "lg" }))}>
               Order again
             </Link>
             <a href={SITE.phoneHref} className={cn(buttonVariants({ variant: "outline", size: "lg" }))}>
@@ -158,7 +158,7 @@ function CartPage() {
           <div className="mt-12 rounded-xl border border-line bg-surface p-8">
             <p className="text-cream">The cart is empty.</p>
             <p className="mt-2 text-sm text-muted">Add plates from the menu, then place the order here.</p>
-            <Link to="/menu" className={cn(buttonVariants(), "mt-6 inline-flex")}>
+            <Link to="/order" className={cn(buttonVariants(), "mt-6 inline-flex")}>
               Browse the menu
             </Link>
           </div>

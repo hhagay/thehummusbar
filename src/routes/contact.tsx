@@ -91,7 +91,7 @@ function ContactPage() {
               </a>
             </div>
             <p className="mt-4 text-xs uppercase tracking-[0.16em] text-muted">Social</p>
-            <p className="mt-1 text-lg text-cream">@hummusbarnyc</p>
+            <p className="mt-1 text-lg text-cream">@hummusbaraz</p>
           </div>
         </div>
 

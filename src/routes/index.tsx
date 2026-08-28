@@ -33,7 +33,7 @@ function Home() {
             salads for lunch. No OpenTable. No dinner rush. Come hungry.
           </p>
           <div className="cta-row mt-7 sm:mt-8">
-            <Link to="/menu" className={cn(buttonVariants({ size: "lg" }))}>
+            <Link to="/order" className={cn(buttonVariants({ size: "lg" }))}>
               Order pickup
               <ArrowRight className="size-4" />
             </Link>
@@ -108,7 +108,7 @@ function Home() {
             <p className="text-xs uppercase tracking-[0.24em] text-lime">The lineup</p>
             <h2 className="mt-2 font-display text-3xl font-semibold text-cream sm:text-4xl">Signature plates</h2>
           </div>
-          <Link to="/menu" className={cn(buttonVariants({ variant: "outline" }), "w-full sm:w-auto")}>
+          <Link to="/order" className={cn(buttonVariants({ variant: "outline" }), "w-full sm:w-auto")}>
             Full menu
           </Link>
         </div>

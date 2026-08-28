@@ -36,7 +36,8 @@ export function SiteHeader() {
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
           {NAV.map((item) => {
-            const active = pathname === item.to;
+            const active =
+              pathname === item.to || (item.to === "/order" && pathname === "/cart");
             return (
               <Link
                 key={item.to}
@@ -103,7 +104,9 @@ export function SiteHeader() {
                 onClick={() => setOpen(false)}
                 className={cn(
                   "flex min-h-12 items-center border-b border-line text-sm uppercase tracking-[0.16em]",
-                  pathname === item.to ? "text-lime" : "text-cream",
+                  pathname === item.to || (item.to === "/order" && pathname === "/cart")
+                    ? "text-lime"
+                    : "text-cream",
                 )}
               >
                 {item.label}

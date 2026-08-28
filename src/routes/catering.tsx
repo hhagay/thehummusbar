@@ -13,16 +13,19 @@ const PACKAGES = [
     name: "Hummus bar",
     price: "From $18 / guest",
     detail: "Three hummus toppings, pita, pickles, Israeli salad, falafel.",
+    image: "/food/catering-hummus-bar.jpg",
   },
   {
     name: "Grill table",
     price: "From $28 / guest",
     detail: "Chicken or kebab platters, rice, salad, hummus, fries, sauces.",
+    image: "/food/catering-grill.jpg",
   },
   {
     name: "Simcha spread",
     price: "From $36 / guest",
     detail: "Full platters plus vegetarian shawarma, fattoush, malabi.",
+    image: "/food/catering-simcha.jpg",
   },
 ];
 
@@ -85,10 +88,13 @@ function CateringPage() {
         </p>
         <div className="mt-10 grid gap-4 md:grid-cols-3">
           {PACKAGES.map((p) => (
-            <article key={p.name} className="rounded-xl border border-line bg-surface p-6">
-              <h2 className="font-display text-2xl font-semibold text-cream">{p.name}</h2>
-              <p className="mt-2 text-sm text-lime">{p.price}</p>
-              <p className="mt-3 text-sm leading-relaxed text-muted">{p.detail}</p>
+            <article key={p.name} className="overflow-hidden rounded-xl border border-line bg-surface">
+              <img src={p.image} alt={p.name} className="aspect-[4/3] w-full object-cover" />
+              <div className="p-6">
+                <h2 className="font-display text-2xl font-semibold text-cream">{p.name}</h2>
+                <p className="mt-2 text-sm text-lime">{p.price}</p>
+                <p className="mt-3 text-sm leading-relaxed text-muted">{p.detail}</p>
+              </div>
             </article>
           ))}
         </div>

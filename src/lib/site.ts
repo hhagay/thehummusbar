@@ -8,9 +8,9 @@ export const SITE = {
   email: "thehummusbar1@gmail.com",
   emailHref: "mailto:thehummusbar1@gmail.com",
   maps: "https://maps.google.com/?q=4835+E+Greenway+Rd+Scottsdale+AZ+85254",
-  instagram: "https://www.instagram.com/hummusbarnyc/",
-  facebook: "https://www.facebook.com/hummusbarnyc",
-  tiktok: "https://www.tiktok.com/@hummusbarnyc",
+  instagram: "https://www.instagram.com/hummusbaraz/",
+  facebook: "https://www.facebook.com/hummusbaraz",
+  tiktok: "https://www.tiktok.com/@hummusbaraz",
   yelp: "https://www.yelp.com/biz/hummus-bar-brooklyn",
 } as const;
 
@@ -63,7 +63,7 @@ export const MENU: MenuSection[] = [
         price: 14.95,
         dietary: "pareve",
         popular: true,
-        image: "/food/hero-hummus.jpg",
+        image: "/food/hummus-tahini.jpg",
       },
       {
         id: "chickpeas",
@@ -102,10 +102,10 @@ export const MENU: MenuSection[] = [
       {
         id: "sloppy",
         name: "Sloppy Joe Hummus",
-        description: "Creamy house hummus topped with savory seasoned ground beef.",
+        description: "Creamy house hummus topped with savory kebab meatballs and seasoned ground beef.",
         price: 19.95,
         dietary: "meat",
-        image: "/food/kebab.jpg",
+        image: "/food/sloppy-joe.jpg",
       },
       {
         id: "merguez-hummus",
@@ -122,8 +122,7 @@ export const MENU: MenuSection[] = [
           "Creamy house hummus topped with tender grilled boneless chicken thigh pieces.",
         price: 20.95,
         dietary: "meat",
-        image: "/food/chicken.jpg",
-        popular: true,
+        image: "/food/chicken-hummus.jpg",
       },
       {
         id: "falafel-hummus",
@@ -147,16 +146,16 @@ export const MENU: MenuSection[] = [
           "Grilled boneless chicken thighs served with rice, chopped Israeli salad, and fries.",
         price: 23.95,
         dietary: "meat",
-        image: "/food/chicken.jpg",
+        image: "/food/chicken-platter.jpg",
       },
       {
         id: "beef-kebab",
         name: "Beef Kebab Platter",
         description:
-          "Seasoned grilled beef kebabs served with rice, chopped Israeli salad, and fries.",
+          "Seasoned grilled kebab meatballs served with rice, chopped Israeli salad, and fries.",
         price: 24.95,
         dietary: "meat",
-        image: "/food/kebab.jpg",
+        image: "/food/kebab-meatballs.jpg",
         popular: true,
       },
       {
@@ -175,16 +174,16 @@ export const MENU: MenuSection[] = [
           "Crispy breaded chicken breast served with rice, chopped Israeli salad, and fries.",
         price: 23.95,
         dietary: "meat",
-        image: "/food/chicken.jpg",
+        image: "/food/chicken-platter.jpg",
       },
       {
         id: "arayes",
         name: "Beef Arayes Platter",
         description:
-          "Crispy pita stuffed with seasoned ground beef, served with rice, chopped Israeli salad, and fries.",
+          "Grilled kebab meatballs served with rice, chopped Israeli salad, and fries.",
         price: 24.95,
         dietary: "meat",
-        image: "/food/kebab.jpg",
+        image: "/food/arayes-meatballs.jpg",
       },
       {
         id: "shakshuka",
@@ -272,6 +271,7 @@ export const MENU: MenuSection[] = [
         description: "Golden, crispy French fries.",
         price: 6.95,
         dietary: "pareve",
+        image: "/food/fries.jpg",
       },
       {
         id: "home-fries",
@@ -279,6 +279,7 @@ export const MENU: MenuSection[] = [
         description: "Crispy seasoned potato cubes.",
         price: 7.95,
         dietary: "pareve",
+        image: "/food/home-fries.jpg",
       },
     ],
   },
@@ -311,7 +312,7 @@ export function mailTo(subject: string, body: string) {
 export const NAV = [
   { to: "/", label: "Home" },
   { to: "/menu", label: "Menu" },
-  { to: "/cart", label: "Order" },
+  { to: "/order", label: "Order" },
   { to: "/about", label: "About" },
   { to: "/catering", label: "Catering" },
   { to: "/contact", label: "Contact" },

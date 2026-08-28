@@ -15,6 +15,7 @@ import { Route as CartRouteImport } from './routes/cart'
 import { Route as CateringRouteImport } from './routes/catering'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as MenuRouteImport } from './routes/menu'
+import { Route as OrderRouteImport } from './routes/order'
 import { Route as ReservationsRouteImport } from './routes/reservations'
 
 const IndexRoute = IndexRouteImport.update({
@@ -47,6 +48,11 @@ const MenuRoute = MenuRouteImport.update({
   path: '/menu',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OrderRoute = OrderRouteImport.update({
+  id: '/order',
+  path: '/order',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ReservationsRoute = ReservationsRouteImport.update({
   id: '/reservations',
   path: '/reservations',
@@ -60,6 +66,7 @@ export interface FileRoutesByFullPath {
   '/catering': typeof CateringRoute
   '/contact': typeof ContactRoute
   '/menu': typeof MenuRoute
+  '/order': typeof OrderRoute
   '/reservations': typeof ReservationsRoute
 }
 export interface FileRoutesByTo {
@@ -69,6 +76,7 @@ export interface FileRoutesByTo {
   '/catering': typeof CateringRoute
   '/contact': typeof ContactRoute
   '/menu': typeof MenuRoute
+  '/order': typeof OrderRoute
   '/reservations': typeof ReservationsRoute
 }
 export interface FileRoutesById {
@@ -79,6 +87,7 @@ export interface FileRoutesById {
   '/catering': typeof CateringRoute
   '/contact': typeof ContactRoute
   '/menu': typeof MenuRoute
+  '/order': typeof OrderRoute
   '/reservations': typeof ReservationsRoute
 }
 export interface FileRouteTypes {
@@ -90,6 +99,7 @@ export interface FileRouteTypes {
     | '/catering'
     | '/contact'
     | '/menu'
+    | '/order'
     | '/reservations'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -99,6 +109,7 @@ export interface FileRouteTypes {
     | '/catering'
     | '/contact'
     | '/menu'
+    | '/order'
     | '/reservations'
   id:
     | '__root__'
@@ -108,6 +119,7 @@ export interface FileRouteTypes {
     | '/catering'
     | '/contact'
     | '/menu'
+    | '/order'
     | '/reservations'
   fileRoutesById: FileRoutesById
 }
@@ -118,6 +130,7 @@ export interface RootRouteChildren {
   CateringRoute: typeof CateringRoute
   ContactRoute: typeof ContactRoute
   MenuRoute: typeof MenuRoute
+  OrderRoute: typeof OrderRoute
   ReservationsRoute: typeof ReservationsRoute
 }
 
@@ -165,6 +178,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MenuRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/order': {
+      id: '/order'
+      path: '/order'
+      fullPath: '/order'
+      preLoaderRoute: typeof OrderRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/reservations': {
       id: '/reservations'
       path: '/reservations'
@@ -182,6 +202,7 @@ const rootRouteChildren: RootRouteChildren = {
   CateringRoute: CateringRoute,
   ContactRoute: ContactRoute,
   MenuRoute: MenuRoute,
+  OrderRoute: OrderRoute,
   ReservationsRoute: ReservationsRoute,
 }
 export const routeTree = rootRouteImport
