@@ -190,7 +190,7 @@ export const MENU: MenuSection[] = [
           "Crispy pita stuffed with seasoned ground beef, two skewers of three, served with rice, chopped Israeli salad, and fries.",
         price: 23.95,
         dietary: "meat",
-        image: "/food/arayes-3.jpg",
+        image: "/food/arayes-platter-match.jpg",
       },
       {
         id: "shakshuka",
