@@ -288,6 +288,20 @@ export const MENU: MenuSection[] = [
       },
     ],
   },
+  {
+    id: "beverages",
+    title: "Beverages",
+    items: [
+      {
+        id: "coke",
+        name: "Coca-Cola",
+        description: "Ice-cold 24 oz Coca-Cola.",
+        price: 3.59,
+        dietary: "pareve",
+        image: "/food/coke.jpg",
+      },
+    ],
+  },
 ];
 
 export function formatPrice(n: number) {
