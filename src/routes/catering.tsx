@@ -72,7 +72,7 @@ function CateringPage() {
     <PageShell>
       <section className="relative min-h-[48dvh] overflow-hidden">
         <img src="/food/catering.jpg" alt="Catering spread" className="absolute inset-0 size-full object-cover" />
-        <div className="absolute inset-0 bg-ink/60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-ink/25 to-ink/10" />
         <div className="relative mx-auto flex min-h-[48dvh] max-w-6xl flex-col justify-end px-4 pb-12 sm:px-6">
           <p className="text-xs uppercase tracking-[0.24em] text-lime">Feed the room</p>
           <h1 className="mt-3 font-display text-4xl font-semibold text-cream sm:text-5xl">Trays from the bar</h1>

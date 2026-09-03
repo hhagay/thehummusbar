@@ -18,7 +18,7 @@ function Home() {
           alt="House hummus with olive oil, chickpeas, and pita"
           className="absolute inset-0 size-full object-cover object-[center_35%]"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/75 to-ink/30 sm:bg-gradient-to-r sm:from-ink sm:via-ink/80 sm:to-ink/25" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/30 to-ink/10 sm:bg-gradient-to-r sm:from-ink/45 sm:via-ink/20 sm:to-transparent" />
         <div className="relative mx-auto flex min-h-[78dvh] max-w-6xl flex-col justify-end px-4 pb-12 pt-24 sm:min-h-[88dvh] sm:px-6 sm:pb-24 sm:pt-28">
           <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-lime sm:mb-4 sm:text-xs sm:tracking-[0.28em]">
             Mediterranean · Kosher · Scottsdale
@@ -138,7 +138,7 @@ function Home() {
       </section>
 
       <section className="grid lg:grid-cols-2">
-        <img src="/food/interior.jpg" alt="Dining room" className="h-56 w-full object-cover sm:h-full sm:min-h-[320px]" />
+        <img src="/food/dining-room.jpg" alt="Dining room" className="h-56 w-full object-cover object-[center_35%] sm:h-full sm:min-h-[320px]" />
         <div className="flex flex-col justify-center bg-cream px-4 py-12 text-ink sm:px-12 sm:py-16">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-olive">Scottsdale</p>
           <h2 className="mt-3 font-display text-3xl font-semibold leading-tight sm:text-4xl">

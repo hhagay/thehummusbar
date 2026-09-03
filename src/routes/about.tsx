@@ -8,8 +8,8 @@ function AboutPage() {
   return (
     <PageShell>
       <section className="relative overflow-hidden border-b border-line">
-        <img src="/food/interior.jpg" alt="" className="h-[42dvh] w-full object-cover" />
-        <div className="absolute inset-0 bg-ink/55" />
+        <img src="/food/dining-room.jpg" alt="The Hummus Bar dining room" className="h-[42dvh] w-full object-cover object-[center_30%]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-ink/25 to-ink/10" />
         <div className="absolute inset-x-0 bottom-0 mx-auto max-w-6xl px-4 pb-10 sm:px-6">
           <p className="text-xs uppercase tracking-[0.24em] text-lime">Our house</p>
           <h1 className="mt-2 font-display text-4xl font-semibold text-cream sm:text-5xl">The Hummus Bar</h1>
