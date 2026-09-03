@@ -1,25 +1,25 @@
-code,filename,item,description
-H1,H1-Hummus-Tahini.jpg,"Hummus Tahini","Creamy house hummus topped with tahini and a hard-boiled egg."
-H2,H2-Hummus-with-Warm-Chickpeas.jpg,"Hummus with Warm Chickpeas","Creamy house hummus topped with warm chickpeas and a hard-boiled egg."
-H3,H3-Falafel-Hummus.jpg,"Falafel Hummus","Creamy house hummus served with crisp house-made falafel."
-H4,H4-Fava-Bean-Hummus.jpg,"Fava Bean Hummus","Creamy house hummus topped with warm seasoned fava beans."
-H5,H5-Mushroom-Hummus.jpg,"Mushroom Hummus","Creamy house hummus topped with sauteed mushrooms and onions."
-H6,H6-Hummus-Shakshuka.jpg,"Hummus Shakshuka","Creamy house hummus topped with shakshuka and eggs."
-H7,H7-Sloppy-Joe-Hummus.jpg,"Sloppy Joe Hummus","Creamy house hummus topped with savory seasoned ground beef."
-H8,H8-Merguez-Sausage-Hummus.jpg,"Merguez Sausage Hummus","Creamy house hummus topped with grilled spicy merguez sausages."
-H9,H9-Baby-Chicken-Hummus.jpg,"Baby Chicken Hummus","Creamy house hummus topped with tender grilled boneless chicken thighs."
-H10,H10-Beef-Kebab-Hummus.jpg,"Beef Kebab Hummus","Creamy house hummus topped with grilled beef kebab patties."
-P1,P1-Grilled-Baby-Chicken-Platter.jpg,"Grilled Baby Chicken Platter","Two skewers of grilled boneless chicken thighs, three pieces each, served with rice, chopped Israeli salad, and fries."
-P2,P2-Beef-Kebab-Platter.jpg,"Beef Kebab Platter","Five grilled beef kebab patties served with rice, chopped Israeli salad, and fries."
-P3,P3-Merguez-Sausage-Platter.jpg,"Merguez Sausage Platter","Grilled spicy merguez sausages served with rice, chopped Israeli salad, and fries."
-P4,P4-Chicken-Schnitzel-Platter.jpg,"Chicken Schnitzel Platter","Two crispy breaded chicken schnitzel served with rice, chopped Israeli salad, and fries."
-P5,P5-Beef-Arayes-Platter.jpg,"Beef Arayes Platter","Crispy pita stuffed with seasoned ground beef, two skewers of three, served with rice, chopped Israeli salad, and fries."
-P6,P6-Shakshuka.jpg,"Shakshuka","Eggs simmered in a spiced tomato and pepper sauce, served with tahini and chopped Israeli salad."
-P7,P7-Falafel-Platter.jpg,"Falafel Platter","Six house-made falafel served with tahini, fries, and chopped Israeli salad."
-V1,V1-Plant-Based-Meat-Hummus.jpg,"Plant-Based Meat Hummus","Creamy house hummus topped with seasoned plant-based meat."
-S1,S1-The-King-Salad.jpg,"The King Salad","Cucumber, tomato, onion, tahini, warm chickpeas, hard-boiled egg, parsley, and walnuts."
-S2,S2-Fattoush-Salad.jpg,"Fattoush Salad","Tomato, cucumber, hot pepper, red onion, radish, mint, parsley, toasted pita, and za'atar."
-S3,S3-French-Fries.jpg,"French Fries","Golden, crispy French fries."
-S4,S4-Home-Fries.jpg,"Home Fries","Crispy seasoned potato cubes."
-D1,D1-Coconut-Malabi.jpg,"Coconut Malabi","Chilled pareve coconut pudding with rosewater syrup and a crunchy topping."
-B1,B1-Coca-Cola.jpg,"Coca-Cola","Ice-cold 24 oz Coca-Cola."
+code,filename,item,print_size,dpi
+H1,H1-Hummus-Tahini.jpg,"Hummus Tahini",11x15.25in,300
+H2,H2-Hummus-with-Warm-Chickpeas.jpg,"Hummus with Warm Chickpeas",11x15.25in,300
+H3,H3-Falafel-Hummus.jpg,"Falafel Hummus",11x15.25in,300
+H4,H4-Fava-Bean-Hummus.jpg,"Fava Bean Hummus",11x15.25in,300
+H5,H5-Mushroom-Hummus.jpg,"Mushroom Hummus",11x15.25in,300
+H6,H6-Hummus-Shakshuka.jpg,"Hummus Shakshuka",11x15.25in,300
+H7,H7-Sloppy-Joe-Hummus.jpg,"Sloppy Joe Hummus",11x15.25in,300
+H8,H8-Merguez-Sausage-Hummus.jpg,"Merguez Sausage Hummus",11x15.25in,300
+H9,H9-Baby-Chicken-Hummus.jpg,"Baby Chicken Hummus",11x15.25in,300
+H10,H10-Beef-Kebab-Hummus.jpg,"Beef Kebab Hummus",11x15.25in,300
+P1,P1-Grilled-Baby-Chicken-Platter.jpg,"Grilled Baby Chicken Platter",11x15.25in,300
+P2,P2-Beef-Kebab-Platter.jpg,"Beef Kebab Platter",11x15.25in,300
+P3,P3-Merguez-Sausage-Platter.jpg,"Merguez Sausage Platter",11x15.25in,300
+P4,P4-Chicken-Schnitzel-Platter.jpg,"Chicken Schnitzel Platter",11x15.25in,300
+P5,P5-Beef-Arayes-Platter.jpg,"Beef Arayes Platter",11x15.25in,300
+P6,P6-Shakshuka.jpg,"Shakshuka",11x15.25in,300
+P7,P7-Falafel-Platter.jpg,"Falafel Platter",11x15.25in,300
+V1,V1-Plant-Based-Meat-Hummus.jpg,"Plant-Based Meat Hummus",11x15.25in,300
+S1,S1-The-King-Salad.jpg,"The King Salad",11x15.25in,300
+S2,S2-Fattoush-Salad.jpg,"Fattoush Salad",11x15.25in,300
+S3,S3-French-Fries.jpg,"French Fries",11x15.25in,300
+S4,S4-Home-Fries.jpg,"Home Fries",11x15.25in,300
+D1,D1-Coconut-Malabi.jpg,"Coconut Malabi",11x15.25in,300
+B1,B1-Coca-Cola.jpg,"Coca-Cola",11x15.25in,300
