@@ -51,6 +51,13 @@ function ContactPage() {
           </a>{" "}
           or call.
         </p>
+        <p className="mt-3 text-sm text-muted">
+          Need a flyer or QR?{" "}
+          <a className="text-lime hover:underline" href="/share">
+            Download the share kit
+          </a>
+          .
+        </p>
 
         <div className="mt-12 grid gap-6 lg:grid-cols-3">
           <a

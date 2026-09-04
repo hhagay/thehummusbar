@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bar;Hummus;;;
+FN:The Hummus Bar
+ORG:The Hummus Bar
+TITLE:Mediterranean Kosher
+TEL;TYPE=WORK,VOICE:+16022910115
+ADR;TYPE=WORK:;;4835 E Greenway Rd.;Scottsdale;AZ;85254;United States
+EMAIL:thehummusbar1@gmail.com
+URL:https://www.instagram.com/hummusbaraz/
+NOTE:Good Food. Good Mood. Walk-in only. Sun-Thu 10:00 AM-6:00 PM. Friday 10:00 AM-2:00 PM. Saturday closed. Shabbat orders welcome.
+END:VCARD
